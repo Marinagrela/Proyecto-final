@@ -5,129 +5,618 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Equipos para bucear</title>
-    <meta name="description" content="Centro de Buceo, tenemos el equipo que necesitas para tener una inmersón segura y con la mejor calidad">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/scss/estilo.css">
+    <meta
+      name="description"
+      content="Centro de Buceo, tenemos el equipo que necesitas para tener una inmersón segura y con la mejor calidad"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/scss/estilo.css" />
   </head>
-  <body>    
-    <header>
+  <body class="gridPadre">
+    <header class="header2">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"> <img src="/img/AGUA MARINA_.png" alt="Imagen logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="../index.html">
+            <img src="/img/AGUA MARINA_.png" alt="Imagen logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="equipo.html">Equipos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="viajes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Viajes
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="aventuras.html">Aventuras</a></li>
-                  <li><a class="dropdown-item" href="salidas.html">Proximas Salidas</a></li>
-                  <li><a class="dropdown-item" href="fotos.html">Fotos</a></li>
-                </ul>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="cursos.html"
+                  >Cursos</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="equipo.html"
+                  >Equipos</a
+                >
               </li>
-             </ul>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="viajes.html"
+                  >Viajes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
+    <main class="equi">
+      <div class="imagenEquipo">
+        <h1 class="tiCurso">COMPRAR PADI®</h1>
+        <a href="equipo.html" class="texCurso"> Explora el mundo con PADI.</a>
+      </div>
+    </main>
 
-   
-    <div class="row">
-      <div class="col-xl-3 col-md-6 col-sm-12">
-        <img src="/img/bebe.jpg" class="card-img-top" alt="Traje Bebe">
+    <section class="row">
+      <div
+        class="card col-xl-3 col-md-6 col-sm-12 seccion0"
+        style="width: 18rem"
+      >
+        <img src="/img/bebe.jpg" class="card-img-top" alt="Imagen traje bebe" />
         <div class="card-body">
-          <h3 class="card-title">Traje de Neopren Niño</h3>
-          <p class="card-text">Tejido Quadra Flex Stretch en Hombros, Mangas y Laterales, Ultra flexible y Costuras Planas.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <h5 class="card-title">Traje de Neopren Bebe</h5>
+          <p class="card-text">
+            Tejido Quadra Flex Stretch en Hombros, Mangas y Laterales, Ultra
+            flexible y Costuras Planas.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
         </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 col-sm-12">
-        <img src="/img/niña.webp" class="card-img-top" alt="Traje Niña">
-        <div class="card-body">
-          <h3 class="card-title">Traje de Neopren Bebe</h3>
-          <p class="card-text">Los Trajes de Baño Mini Anima están fabricados con Lycra de calidad Premium y estampas EXCLUSIVAS con definición ULTRA HD.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-      
-      <div class="col-xl-3 col-md-6 col-sm-12">
-        <img src="/img/niño.webp" class="card-img-top" alt="Traje Niño">
-        <div class="card-body">
-          <h3 class="card-title">Traje de Neopren Bebe</h3>
-          <p class="card-text">Los Trajes de Baño Mini Anima están fabricados con Lycra de calidad Premium y estampas EXCLUSIVAS con definición ULTRA HD.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-  
-      <div class="col-xl-3 col-md-6 col-sm-12">
-        <img src="/img/dama.webp" class="card-img-top" alt="Traje Mujer">
-        <div class="card-body">
-          <h3 class="card-title">Traje de Neopren Mujer</h3>
-          <p class="card-text">Máxima flexibilidad sin alterar tu posición, ideal para los Natural Swimmers.Cuenta con la tecnología Yamamoto 39 y el lining más elástico del mercado.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-  
-      <div class="col-xl-3 col-md-6 col-sm-12">
-        <img src="/img/hom.webp" class="card-img-top" alt="Traje Mujer">
-        <div class="card-body">
-          <h3 class="card-title">Traje de Neopren Hombre</h3>
-          <p class="card-text">Trajes de Neoprene WARM de 4mm de espesor con última tecnología de aislamiento ideal para practicar deportes acuáticos como Kayak, paddle, etc, súper cómodo y liviano!</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 col-sm-12" style="width: 15rem;">
-        <img src="/img/snorkel niño.webp" class="card-img-top" alt="Snorkel Niño">
-        <div class="card-body">
-          <h3 class="card-title">Equipo de Snorkel Niño</h3>
-          <p class="card-text">Aprende a bucear en la playa o en la piscina con el set master class de Intex. El pack contiene máscara de buceo sea scan, tubo para snorkel hi-flow y aletas de talla 38-40. Las aletas y las gafas son ajustables y el tubo tiene una forma curvada para que usarlo sea más cómodo.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 col-sm-12" style="width: 15rem;">
-        <img src="/img/snorkel adulto.webp" class="card-img-top" alt="Snorkel Adulto">
-        <div class="card-body">
-          <h3 class="card-title">Equipo de Snorkel Adulto</h3>
-          <p class="card-text">Antiparras profesionales totalmente regulables, boquilla de silicona y válvula de seguridad grande, cubre nariz, correa y fuelle de silicona para regular el bucal, terminación rompeolas, lentes con vidrio templado y tratamiento Antifog.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="col-xl-3 col-md-6 col-sm-12" style="width: 15rem;">
-        <img src="/img/chaleco.webp" class="card-img-top" alt="Chaleco de Buceo">
+      <div class="card seccion1" style="width: 18rem">
+        <img
+          src="/img/niña.webp"
+          class="card-img-top"
+          alt="Imagen traje niña"
+        />
         <div class="card-body">
-          <h3 class="card-title">Chaleco de Buceo</h3>
-          <p class="card-text">Saco que combina Cordura© 1000 Deniers en el exterior, bolsillos y hombreras y 500 Deniers en la zona interior.Sistema integrado de fijación del manómetro y el octopus, muy útil en especial para centros de buceo. Bolsillos de gran capacidad con cierre mediante amplia solapa y velcro.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <h5 class="card-title">Traje de Neopren Niña</h5>
+          <p class="card-text">
+            Tejido Quadra Flex Stretch en Hombros, Mangas y Laterales, Ultra
+            flexible y Costuras Planas.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade seccionD"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
- 
+
+      <div class="card seccion2" style="width: 18rem">
+        <img
+          src="/img/niño.webp"
+          class="card-img-top"
+          alt="Imagen traje niño"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Traje de Neopren Niño</h5>
+          <p class="card-text">
+            Tejido Quadra Flex Stretch en Hombros, Mangas y Laterales, Ultra
+            flexible y Costuras Planas.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="card seccion3" style="width: 18rem">
+        <img
+          src="/img/dama.webp"
+          class="card-img-top"
+          alt="Imagen traje Mujer"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Traje de Neopren Mujer</h5>
+          <p class="card-text">
+            Máxima flexibilidad sin alterar tu posición, ideal para los Natural
+            Swimmers.Cuenta con la tecnología Yamamoto 39 y el lining más
+            elástico del mercado.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card seccion4" style="width: 18rem">
+        <img
+          src="/img/dama.webp"
+          class="card-img-top"
+          alt="Imagen traje Hombre"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Traje de Neopren Hombre</h5>
+          <p class="card-text">
+            Trajes de Neoprene WARM de 4mm de espesor con última tecnología de
+            aislamiento ideal para practicar deportes acuáticos como Kayak,
+            paddle, etc, súper cómodo y liviano!
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card seccion5" style="width: 18rem">
+        <img
+          src="/img/snorkel niño.webp"
+          class="card-img-top"
+          alt="Imagen Snorkel niño"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Equipo de Snorkel Niño</h5>
+          <p class="card-text">
+            Trajes de Neoprene WARM de 4mm de espesor con última tecnología de
+            aislamiento ideal para practicar deportes acuáticos como Kayak,
+            paddle, etc, súper cómodo y liviano!
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="card seccion6" style="width: 18rem">
+        <img
+          src="/img/snorkel adulto.webp"
+          class="card-img-top"
+          alt="Imagen Snorkel adulto"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Equipo de Snorkel Adulto</h5>
+          <p class="card-text">
+            Antiparras profesionales totalmente regulables, boquilla de silicona
+            y válvula de seguridad grande, cubre nariz, correa y fuelle de
+            silicona para regular el bucal, terminación rompeolas, lentes con
+            vidrio templado y tratamiento Antifog.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card seccion7" style="width: 18rem">
+        <img
+          src="/img/chaleco.webp"
+          class="card-img-top"
+          alt="Imagen chaleco"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Chaleco de Buceo</h5>
+          <p class="card-text">
+            Antiparras profesionales totalmente regulables, boquilla de silicona
+            y válvula de seguridad grande, cubre nariz, correa y fuelle de
+            silicona para regular el bucal, terminación rompeolas, lentes con
+            vidrio templado y tratamiento Antifog.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card seccion8" style="width: 18rem">
+        <img
+          src="/img/regulador.webp"
+          class="card-img-top"
+          alt="Imagen regulador"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Chaleco de Buceo</h5>
+          <p class="card-text">
+            Rgulador constituido por una 2. etapa Ellipse, con capucha en acero
+            (versión Steel) combinada con una primera etapa con pistón
+            equilibrado AC10.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprar
+          </button>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">Se agrego producto al carrito</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="sparametro">
-        <a  href="https://www.instagram.com/" target="_blank">
-          <span class="iconify" data-icon="brandico:instagram"></span>
-        <a href="https://www.facebook.com/"target="_blank">
-          <span class="iconify" data-icon="brandico:facebook-rect"></span>
+        <a href="https://www.instagram.com/" target="_blank">
+          <span class="iconify" data-icon="brandico:instagram"></span
+        ></a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <span class="iconify" data-icon="brandico:facebook-rect"></span
+        ></a>
         <a href="https://twitter.com/login?lang=es" target="_blank">
-          <span class="iconify" data-icon="bi:twitter"></span>
+          <span class="iconify" data-icon="bi:twitter"></span
+        ></a>
       </div>
     </footer>
 
@@ -138,9 +627,10 @@
     <script>
       AOS.init();
     </script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-     </script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
