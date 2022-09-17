@@ -1,10 +1,9 @@
-@import "variable";
-@import "maps";
-@import "extend";
-@import "mixin";
 
+@import "variable";
 
 body {
+  display:inline-block;
+  overflow-x: hidden;
   background: linear-gradient(#33f9ff, #9cf4ec, #d1e5e3, #b4bcbb) #33f9ff;
 
   header {
@@ -12,133 +11,44 @@ body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     font-size: larger;
+  }
 
+  main {
     h1 {
       color: $color-principal;
       font-weight: bolder;
       margin: $margin;
+      text-align: center;
+      font-size: $tamTitulo;
+     
     }
   }
+
 }
 
-.imagenCurso {
-  height: 500px;
-  width: 100%;
+.imagenCurso {  
   display: flex;
+  height: 500px;  
+  width: 100%;
   justify-content: left;
   padding-top: 14rem;
-  background-image: url("/img/curso.jpg");
+  background-image: url("../img/curso.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 3rem;
 }
 
 
-.texCurso {
-  font-size: 3rem;
-  text-decoration: none;
-  color: white;
-  margin-left: 4rem;
-}
 
-.accordion-button {
-  margin-top: 3rem;
-  background-color: #21D8D2;
-
-}
-
-.accordion-body {
-  background-image: url(/img/fondo.jpg);
-  background-position: right;
-  background-size: cover;
-  color: blue;
-}
-
-.tiCurso {
-  font-size: 3.8rem;
-  text-decoration: none;
-  margin-left: 4rem;
-}
-
-.texCarrou {
-  border: 4rem;
-  margin-top: 7rem;
-}
-
-.card {
-  margin: 3rem;
-  margin-left: 6rem;
-}
-
-.card-img-top {
-  width: 9rem;
-  margin-left: 25%;
-}
 
 .imagenEquipo {
-  height: 400px;
-  width: 100%;
   display: flex;
+  height: 500px;  
+  width: 100%;
   justify-content: left;
   padding-top: 14rem;
-  background-image: url("/img/img\ buceo.jpg");
+  background-image: url("../img/img\ buceo.jpg");
   background-size: cover;
   background-position: center;
+  margin-bottom: 3rem;
 }
-
-.titH2 {
-  text-align: center;
-}
-
-.parrafo {
-  margin-right: 9rem;
-  margin-left: 9rem;
-  margin-top: 3rem;
-}
-
-.video {
-  margin-left: 25%;
-}
-
-.img-fluid {
-  height: 22rem;
-  width: auto;
-
-}
-
-.mb-3 {
-  background-color: transparent;
-  border: none;
-}
-
-.viaje {
-  width: auto;
-  height: 16rem;
-  text-align: center;
-}
-
-.Imagenes {
-  margin-left: 3rem;
-  margin-right: 3rem;
-
-}
-
-.foto {
-  width: 30rem;
-  height: 18rem;
-  margin-bottom: 1rem;
-}
-
-.imgRec {
-  width: 20rem;
-  height: 10rem;
-
-}
-
-.recuadro {
-  height: 22rem;
-  width: 30rem;
-  margin-left: 6rem;
-
-}
-
