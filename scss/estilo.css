@@ -1,6 +1,4 @@
 body {
-  display: inline-block;
-  overflow-x: hidden;
   background: linear-gradient(#33f9ff, #9cf4ec, #d1e5e3, #b4bcbb) #33f9ff;
 }
 body header {
@@ -13,29 +11,77 @@ body main h1 {
   font-weight: bolder;
   margin: 3rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .imagenCurso {
-  display: flex;
-  height: 500px;
-  width: 100%;
   justify-content: left;
   padding-top: 14rem;
   background-image: url("../img/curso.jpg");
   background-size: cover;
-  background-position: center;
+  height: calc(100vh - 100px);
   margin-bottom: 3rem;
+}
+
+.tanFuente {
+  text-decoration: none;
+  background-size: cover;
+  color: #A5EAE5;
+  font-size: 2.5rem;
 }
 
 .imagenEquipo {
   display: flex;
   height: 500px;
-  width: 100%;
+  max-width: 100%;
   justify-content: left;
   padding-top: 14rem;
   background-image: url("../img/img buceo.jpg");
   background-size: cover;
-  background-position: center;
+  height: calc(100vh - 100px);
   margin-bottom: 3rem;
+}
+
+footer {
+  font-size: 4rem;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.recuadro {
+  height: 40rem;
+  width: 30rem;
+  margin-left: 6rem;
+}
+
+.video {
+  margin-left: 25%;
+}
+
+.cerBuceo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #03106A;
+}
+
+.certif {
+  text-align: center;
+  margin: 3rem;
+  font-size: 1.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.texto {
+  background-color: transparent;
+  border: none;
+  margin: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  flex-wrap: wrap;
+}
+
+.g-4 {
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }/*# sourceMappingURL=estilo.css.map */
