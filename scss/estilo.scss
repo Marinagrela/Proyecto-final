@@ -1,9 +1,12 @@
-
 @import "variable";
 
 body {
 
   background: linear-gradient(#33f9ff, #9cf4ec, #d1e5e3, #b4bcbb) #33f9ff;
+
+  nav {
+    font-size: 2rem;
+  }
 
   header {
     font-weight: bold;
@@ -19,13 +22,91 @@ body {
       margin: $margin;
       text-align: center;
       font-size: $tamTitulo;
-     
+
     }
   }
 
 }
 
-.imagenCurso {  
+.logo {
+  margin-left: 3rem;
+}
+
+.sitio {
+  margin-left: 12rem;
+}
+
+footer {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.padi {
+  height: 3rem;
+  width: 6rem;
+  margin: 1rem;
+}
+
+.texFoot {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.face {
+  margin: 2 rem;
+}
+
+/* Index */
+.recuadro {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 36rem;
+  width: 30rem;
+  margin-bottom: 3rem;
+}
+
+.cerBuceo {
+  margin: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #03106A;
+}
+
+.certif {
+  text-align: center;
+  margin: 3rem;
+  font-size: 1.6rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.card-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardIndex {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 3rem;
+}
+
+.video {
+  margin-left: 25%
+}
+
+.g-4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 3rem;
+}
+
+/*Curso*/
+
+.texIndex {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagenCurso {
   justify-content: left;
   padding-top: 14rem;
   background-image: url("../img/curso.jpg");
@@ -34,64 +115,174 @@ body {
   margin-bottom: 3rem;
 }
 
-.tanFuente{  
-  
-  text-decoration: none; 
-  background-size: cover;   
-  color: #A5EAE5 ;
-  font-size: 2.5rem;   
+#texCurso {
+  text-align: left;
 }
+
+.tanFuente {
+  text-decoration: none;
+  background-size: cover;
+  color: #A5EAE5;
+  font-size: 2.5rem;
+  margin-left: 3rem;
+}
+
+
+
+.texto {
+  background-color: transparent;
+  border: none;
+  margin: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.h-80 {
+  margin-top: 3rem;
+  background-color: transparent;
+  border: none;
+}
+
+.cursos {
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 37rem;
+  width: 35rem;
+  margin-top: 3rem;
+  background-color: #D7F2F4;
+}
+
+
+.fCurs {
+  height: 20rem;
+  width: 15rem;
+}
+
+.tamCurso {
+  height: 500px;
+}
+
+.precio {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#tituCursos {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+/*equipos*/
+
 .imagenEquipo {
   display: flex;
-  height: 500px;    
+  height: 500px;
   max-width: 100%;
   justify-content: left;
   padding-top: 14rem;
   background-image: url("../img/img\ buceo.jpg");
   background-size: cover;
   height: calc(100vh - 100px);
-  margin-bottom: 3rem;  
 }
 
-footer{
-  font-size: 4rem;
-  text-align: center;
-}
-.recuadro {
-  height: 40rem;
-  width: 30rem;
-} 
-.card-title{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.video{
-  margin-left: 25%;
-}
-
-.cerBuceo{
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #03106A ;
-}
-
-.certif{
-  text-align: center;
-  margin: 3rem;
-  font-size: 1.6rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bold;
-}
-
-.texto{
+.tienda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
   background-color: transparent;
   border: none;
-  margin: 3rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
 
-.g-4{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
- }   
+.imgEquipo {
+  height: 10rec;
+}
 
+
+.foto {
+  display: flex;
+  height: 20rem;
+  width: 32rem;
+  margin: 1rem;
+}
+
+
+/*viajes*/
+
+.imagenViajes {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  justify-content: left;
+  padding-top: 14rem;
+  background-image: url("../img/viaje.jpg");
+  background-size: cover;
+  height: calc(100vh - 100px);
+}
+
+.imgViajes {
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.carIma1 {
+  text-align: left;
+  margin-top: 3rem;
+
+}
+
+.carIma {
+  text-align: right;
+  margin-top: 3rem;
+}
+
+.texViajes {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2rem;
+}
+
+.tanFuentes {
+  text-decoration: none;
+  background-size: cover;
+  color: #A5EAE5;
+  font-size: 2.5rem;
+  margin-top: 7rem;
+  margin-left: -29rem;
+}
+
+.ventaCard {
+  margin-bottom: 3rem;
+}
+
+
+.stretched-link {
+  text-decoration: none;
+}
+
+/*contato*/
+
+.formulario {
+  padding: 5rem;
+}
+
+.direccion {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.ubicacion {
+  text-align: left;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  justify-content: left;
+  padding-top: 14rem;
+  background-image: url("../img/ubicacion.jpg");
+  background-size: cover;
+  height: calc(100vh - 100px);
+}
+
+.position-relative {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
