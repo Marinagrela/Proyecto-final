@@ -1,11 +1,11 @@
 @import "variable";
 
 body {
-
+  width: 100%;
   background: linear-gradient(#33f9ff, #9cf4ec, #d1e5e3, #b4bcbb) #33f9ff;
 
   nav {
-    font-size: 2rem;
+    font-size: 28px;
   }
 
   header {
@@ -28,7 +28,12 @@ body {
 
 }
 
+.nav-item { 
+  margin-left: 4rem;
+}
+
 .logo {
+  height: 5.7rem;
   margin-left: 3rem;
 }
 
@@ -59,6 +64,20 @@ footer {
 }
 
 /* Index */
+
+.imagenIndex {
+  background-image: url(../img/curso.jpg);
+  height: 88vh;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+}
+
+.texIndex{
+  text-align: left;
+}
 .recuadro {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 36rem;
@@ -86,18 +105,16 @@ footer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.cardIndex {
+.cardIndex { 
+  background-color: transparent;
+  border: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 3rem;
 }
 
-.video {
-  margin-left: 25%
-}
-
-.g-4 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-left: 3rem;
+.video {  
+  margin-top: 4rem;
+  margin-left: 25%  
 }
 
 /*Curso*/
@@ -107,13 +124,16 @@ footer {
 }
 
 .imagenCurso {
-  justify-content: left;
-  padding-top: 14rem;
-  background-image: url("../img/curso.jpg");
+  background-image: url(../img/profundidad.jpg);
+  height: 88vh;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-size: cover;
-  height: calc(100vh - 100px);
-  margin-bottom: 3rem;
+  border: 0rem;
 }
+
 
 #texCurso {
   text-align: left;
@@ -127,15 +147,12 @@ footer {
   margin-left: 3rem;
 }
 
-
-
 .texto {
   background-color: transparent;
   border: none;
   margin: 3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 
 .h-80 {
   margin-top: 3rem;
@@ -144,26 +161,29 @@ footer {
 }
 
 .cursos {
+  width: 16rem;
+  height:27rem ;
+  display: flex;
   align-items: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  height: 37rem;
-  width: 35rem;
-  margin-top: 3rem;
-  background-color: #D7F2F4;
+  justify-content: center;
+  margin: 3rem;
+  background-color: transparent;
+  border: none;
 }
 
-
-.fCurs {
-  height: 20rem;
-  width: 15rem;
+.fCurs { 
+  flex-wrap: wrap;
+  align-items: center;
+  height: 7rem;  
+  width: 9;
+  margin-top: 3rem;  
 }
 
-.tamCurso {
-  height: 500px;
+.btn-primary{
+  background-color: #4F979C ;
 }
-
 .precio {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -172,32 +192,45 @@ footer {
   margin-bottom: 2rem;
 }
 
+.cursosDis {
+  background-image: url(../img/cursosdis.jpg);
+  height: 88vh;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+}
+
+
 /*equipos*/
 
 .imagenEquipo {
+  background-image: url(../img/img\ buceo.jpg);
+  height: 88vh;
+  padding-left: 40px;
   display: flex;
-  height: 500px;
-  max-width: 100%;
-  justify-content: left;
-  padding-top: 14rem;
-  background-image: url("../img/img\ buceo.jpg");
-  background-size: cover;
-  height: calc(100vh - 100px);
-}
-
-.tienda {
-  display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  margin: 5rem;
+  background-size: cover;
+}
+
+.titEquipo{
+  text-align: left;
+}
+.tienda {
   background-color: transparent;
-  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;  
+  padding-bottom: 32px;
+  height: auto;
+  width: 300px;  
+  margin: 4rem;    
+  box-shadow: 1px 1px 10px 2px #617675 ; 
 }
-
-.imgEquipo {
-  height: 10rec;
-}
-
 
 .foto {
   display: flex;
@@ -210,14 +243,13 @@ footer {
 /*viajes*/
 
 .imagenViajes {
+  background-image: url(../img/viaje.jpg);
+  height: 88vh;
+  padding-left: 40px;
   display: flex;
-  height: 500px;
-  width: 100%;
-  justify-content: left;
-  padding-top: 14rem;
-  background-image: url("../img/viaje.jpg");
+  flex-direction: column;
+  justify-content: center;
   background-size: cover;
-  height: calc(100vh - 100px);
 }
 
 .imgViajes {
@@ -228,16 +260,17 @@ footer {
 
 .carIma1 {
   text-align: left;
-  margin-top: 3rem;
-
+  margin-top: 3rem;  
 }
 
 .carIma {
   text-align: right;
   margin-top: 3rem;
+  
 }
 
 .texViajes {
+
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 2rem;
 }
@@ -247,12 +280,24 @@ footer {
   background-size: cover;
   color: #A5EAE5;
   font-size: 2.5rem;
-  margin-top: 7rem;
-  margin-left: -29rem;
+  margin-bottom: 7rem;
+  margin-left: 2rem;
 }
 
+#texViaje{
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 16rem;
+}
 .ventaCard {
   margin-bottom: 3rem;
+  border-radius: 1rem;  
+  padding-bottom: 32px;
+  height: 23rem;
+  width: auto;  
+  margin: 0rem;  
+  margin-bottom: 2rem;  
+  box-shadow: 1px 1px 10px 2px #617675 ; 
 }
 
 
@@ -266,21 +311,24 @@ footer {
   padding: 5rem;
 }
 
-.direccion {
+.direccion {  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 
 .ubicacion {
-  text-align: left;
+  background-image: url(../img/ubicacion.jpg);
+  height: 88vh;  
+  padding-left: 40px;
   display: flex;
-  height: 500px;
-  width: 100%;
-  justify-content: left;
-  padding-top: 14rem;
-  background-image: url("../img/ubicacion.jpg");
-  background-size: cover;
-  height: calc(100vh - 100px);
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover; 
+}
+
+
+.what{
+  width: 20px;
 }
 
 .position-relative {

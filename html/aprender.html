@@ -20,7 +20,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
           <img src="../img/AGUA MARINA.png" alt="Imagen logo" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler logo" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,240 +45,420 @@
   </header>
 
   <main>
-    <div>
-      <div data-bs-interval="10000">
-        <img src="../img/cursosdis.jpg" class="d-block w-100 tamCurso" alt="Imagen de Snorkel">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 id="tituCursos">CURSOS DISPONIBLES</h1>
-        </div>
-      </div>
+    <div class="cursosDis">
+      <h1 id="tituCursos">CURSOS DISPONIBLES</h1>
     </div>
   </main>
 
-  <section>
-    <section class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card cursos">
-            <div class="card-body">
-              <img src="../img/snorkelCur.webp" class="d-block w-100 fCurs" alt="Imagen curso de Snorkel" />
-              <div class="d-none d-md-block">
-                <h2>Snorkel</h2>
-                <P class="precio">$ 10000 x 2 días</P>
-                <p>
-                  Empeza a palpitar el mundo subacuatico, observando los maavilloso, que nos ofrece.
-                </p>
-              </div>
-              <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                data-bs-content="This popover is themed via CSS variables.">
-                Comprar Curso
-              </button>
-            </div>
-          </div>
+  <section class="container">
+    <div class="row">
+      <div class="card cursos">
+        <img src="../img/snorkelCur.webp" class="card-img-top fCurs" alt="Imagen curso de Snorkel" />
+        <div class="card-body">
+          <h2 class="card-title">Snorkel</h2>
+          <p class="precio">$ 10000 x 2 días</p>
+          <p class="card-text">
+            Empeza a palpitar el mundo subacuatico, observando los maavilloso, que nos ofrece.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Comprar Curso
+          </button>
         </div>
-
-
-        <div class="col-sm-6">
-          <div class="card cursos">
-            <div class="card-body">
-              <img src="../img/buslibre.webp" class="d-block w-100 fCurs" alt="Imagen curso de buceo libre" />
-              <div class="d-none d-md-block">
-                <h2>Buceo libre</h2>
-                <p class="precio">$15000</p>
-                <p>
-                  Disfruta de un paseo submarino, y conoce la belleza de el océano y sus peces coloridos.
-                </p>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                data-bs-content="This popover is themed via CSS variables.">
-                Comprar Curso
-              </button>
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-
-    <section>
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/open3.jpg" class="d-block w-100 fCurs" alt="Imagen curso Open" />
-                <div class="d-none d-md-block">
-                  <h2>Open Water Diver</h2>
-                  <P class="precio">$35000</P>
-                  <p>
-                    Su primer certificación de buceo, abre la puerta a una vida de Aventuras, llena de adrenalina.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
-                </button>
+      <div class="card cursos">
+        <img src="../img/buslibre.webp" class="card-img-top fCurs" alt="Imagen curso de buceo libre" />
+        <div class="card-body">
+          <h2 class="card-title">Buceo libre</h2>
+          <p class="precio">$15000</p>
+          <p class="card-text">
+            Disfruta de un paseo submarino, y conoce la belleza de el océano y sus peces coloridos.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/scuba.jpg" class="d-block w-100 fCurs" alt="Imagen curso Scuba" />
-                <div class="d-none d-md-block">
-                  <h2>Scuba Diver</h2>
-                  <p class="precio">$25000</p>
-                  <p>
-                    Vive nuevas aventuras a mayor profundidad, perfecionandote para optimizar la inmersión.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
                 </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/advance.jpg" class="d-block w-100 fCurs" alt="Imagen curso Advance" />
-                <div class="d-none d-md-block">
-                  <h2>Advance</h2>
-                  <p class="precio">$32000</p>
-                  <p>
-                    Sumergite enla ciencia del buceo para apliar tus conocimientos o preparate para un curso de
-                    divermaster/instructor.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
-                </button>
+      <div class="card cursos">
+        <img src="../img/open3.jpg" class="card-img-top fCurs" alt="Imagen traje de buceo"/>
+        <div class="card-body">
+          <h2 class="card-title">Open Water Diver</h2>
+          <p class="precio">$35000</p>
+          <p class="card-text">
+            Su primer certificación de buceo, abre la puerta a una vida de Aventuras, llena de adrenalina.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/b-prof.jpeg" class="d-block w-100 fCurs" alt="Imagen curso Divermaster" />
-                <div class="d-none d-md-block">
-                  <h2>Divermaster</h2>
-                  <p class="precio">$ 50000</p>
-                  <p>
-                    Este curso te perpara para dar forma a la próxima generación de profecionales PADI.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
                 </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/b-nocturno.jpg" class="d-block w-100 fCurs" alt="Imagen buceo nocturno" />
-                <div class="d-none d-md-block">
-                  <h2>Buzo nocturno</h2>
-                  <p class="precio">$12000</p>
-                  <p>
-                    Vea el mundo submarino bajo una luz completamente nueva, despues de que se ponga el sol
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
-                </button>
+  <section class="container">
+    <div class="row">
+      <div class="card cursos">
+        <img src="../img/scuba.jpg" class="card-img-top fCurs" alt="Imagen botas de buceo" />
+        <div class="card-body">
+          <h2 class="card-title">Scuba Diver</h2>
+          <p class="precio">$ 25000</p>    
+          <p class="card-text">
+            Vive nuevas aventuras a mayor profundidad, perfecionandote para optimizar la inmersión.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar 
+            curso
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/rescate.jpg" class="d-block w-100 fCurs" alt="Imagen de rescate" />
-                <div class="d-none d-md-block">
-                  <h2>Rescate</h2>
-                  <p class="precio">$ 32000</p>
-                  <p>
-                    Obtenga las habilidades para poder salvar vidas, adquiriendo conociemiento de RCP.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando
                 </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/fotsub.jpg" class="d-block w-100 fCurs" alt="Imagen buceo fotografico" />
-                <div class="d-none d-md-block">
-                  <h2>Fotografia submarina</h2>
-                  <p class="precio">$129000</p>
-                  <p>
-                    Capta fotos submarinas que estarás orgulloso de compartir, aprendé consejos profecionales que
-                    funcionan con todas las cámaras.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
-                </button>
+      </div>
+  
+      <div class="card cursos">
+        <img src="../img/advance.jpg" class="card-img-top fCurs" alt="Imagen curso Advance" />
+        <div class="card-body">
+          <h2 class="card-title">Advance</h2>
+          <p class="precio">$32000</p>
+          <p class="card-text">
+            Sumergite enla ciencia del buceo para apliar tus conocimientos o preparate para un curso de
+            divermaster/instructor.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card cursos">
-              <div class="card-body">
-                <img src="../img/apnea.jpg" class="d-block w-100 fCurs" alt="Imagen buceo apnea" />
-                <div class="d-none d-md-block">
-                  <h2>Apneísta</h2>
-                  <p class="precio">$ 32000</p>
-                  <p>
-                    Tu primer paso para descubrir por qué la apnea se está convirtiendo en una forma popular de explorar
-                    bajo las olas.
-                  </p>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right"
-                  data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                  data-bs-content="This popover is themed via CSS variables.">
-                  Comprar Curso
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando
                 </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </section>
+      </div>
+  
+      <div class="card cursos">
+        <img src="../img/b-prof.jpeg" class="card-img-top fCurs" alt="Imagen curso Divermaster" />
+        <div class="card-body">
+          <h2 class="card-title">Divermaster</h2>
+          <p class="precio">$ 50000</p>
+          <p class="card-text">
+            Este curso te perpara para dar forma a la próxima generación de profecionales PADI.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Cursos de buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="container">
+    <div class="row">
+      <div class="card cursos">
+        <img src="../img/b-nocturno.jpg" class="card-img-top fCurs" alt="Imagen buceo nocturno" />
+        <div class="card-body">
+          <h2 class="card-title">Buzo nocturno</h2>
+          <p class="precio">$12000</p>
+          <p class="card-text">
+            Vea el mundo submarino bajo una luz completamente nueva, despues de que se ponga el sol
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agrego curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card cursos">
+        <img src="../img/rescate.jpg" class="card-img-top fCurs" alt="Imagen de rescate"/>
+        <div class="card-body">
+          <h2 class="card-title">Rescate</h2>
+          <p class="precio">$ 32000</p>
+          <p class="card-text">
+            Obtenga las habilidades para poder salvar vidas, adquiriendo conociemiento de RCP.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Comprar curso
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Tienda de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agrego curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card cursos">
+        <img src="../img/fotsub.jpg" class="card-img-top fCurs" alt="Imagen buceo fotografico" />
+        <div class="card-body">
+          <h2 class="card-title">Fotografia submarina</h2>
+          <p class="precio">$129000</p>
+          <p class="card-text">
+            Capta fotos submarinas que estarás orgulloso de compartir, aprendé consejos profecionales que
+            funcionan con todas las cámaras.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Comprar curso
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Cueso de buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agrego curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="card cursos">
+        <img src="../img/apnea.jpg" class="card-img-top fCurs" alt="Imagen buceo apnea" />
+        <div class="card-body">
+          <h2 class="card-title">Apneísta</h2>
+          <p class="precio">$ 32000</p>
+          <p class="card-text">
+            Tu primer paso para descubrir por qué la apnea se está convirtiendo en una forma popular de explorar
+            bajo las olas.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Comprar Curso
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card cursos">
+        <img src="../img/navegador.jpg" class="card-img-top fCurs" alt="Imagen navegador submarino" />
+        <div class="card-body">
+          <h2 class="card-title">Navegador submarino</h2>
+          <p class="precio">$15000</p>
+          <p class="card-text">
+            ¿Cansado de perderte? aprende con navegador bajo el agua como un profecional.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card cursos">
+        <img src="../img/flotabilidad.jpg" class="card-img-top fCurs" alt="Imagen flotabilidad en el buceo"/>
+        <div class="card-body">
+          <h2 class="card-title">Flotabilidad de maximo rendimiento</h2>
+          <p class="precio">$12500</p>
+          <p class="card-text">
+            Mejora tu control de flotabilidad, bucea con menos lastre y mejor el consumo de aire.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+          </button>
+        </div>
+        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  Curso de Buceo
+                </h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">Se agregó curso al carrito</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Seguir comprando
+                </button>
+                <button type="button" class="btn btn-primary">Pagar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
     <footer>
       <div class="sparametro">
         <a href="https://www.instagram.com/" target="_blank">
