@@ -45,122 +45,89 @@
   </header>
 
   <main>
-    <div class="imagenEquipo">
-      <h1 class="titEquipo">COMPRAR PADI®</h1>
+    <div class="imagenEquipo">      
+      <h1 #id="titEquipo">COMPRAR PADI®</h1>
     </div>
   </main>
 
-  <section class="container-fluid">
-    <div class="row">
-      <div class="card tienda">
-        <img src="../img/cruiser.jpg" class="card-img-top imgEquipo" alt="Imagen traje de buceo" />
-        <div class="card-body">
-          <h2 class="card-title">Cruiser 3mm Fullsuit</h2>
-          <p>$89600</p>
-          <p class="card-text">
-            Trajes Húmedos y Semi Seco.
-          </p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Comprar
-          </button>
-        </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">
-                  Tienda de Buceo
-                </h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <section class="container">
+    <div class="col">
+      <div class="row">
+        <div class="card tienda">
+          <img src="../img/cruiser.jpg" class="card-img-top imgEquipo" alt="Imagen traje de buceo" />
+          <div class="card-body">
+            <h2 class="card-title">Cruiser 3mm Fullsuit</h2>
+            <p class="precio">$89600</p>
+            <p class="card-text">
+              Trajes Húmedos y Semi Seco.
+            </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Comprar
+            </button>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLabel">
+                    Tienda de Buceo
+                  </h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">Se agregó producto al carrito</div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando
+                  </button>
+                  <button type="button" class="btn btn-primary">Pagar</button>
+                </div>
               </div>
-              <div class="modal-body">Se agregó producto al carrito</div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando
-                </button>
-                <button type="button" class="btn btn-primary">Pagar</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card tienda">
+          <img src="../img/dx-300.jpg" class="card-img-top imgEquipo" alt="Imagen traje de buceo" />
+          <div class="card-body">
+            <h2 class="card-title">DX-300X w/Neoprene Socks-XS</h2>
+            <p class="precio">$94500</p>
+            <p class="card-text">
+              Trajes Secos.
+            </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
+            </button>
+          </div>
+          <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLabel">
+                    Tienda de Buceo
+                  </h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">Se agregó producto al carrito</div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Seguir comprando
+                  </button>
+                  <button type="button" class="btn btn-primary">Pagar</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="card tienda">
-        <img src="../img/dx-300.jpg" class="card-img-top imgEquipo" alt="Imagen traje de buceo" />
-        <div class="card-body">
-          <h2 class="card-title">DX-300X w/Neoprene Socks-XS</h2>
-          <p>$94500</p>
-          <p class="card-text">
-            Trajes Secos.
-          </p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar curso
-          </button>
-        </div>
-        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">
-                  Tienda de Buceo
-                </h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">Se agregó producto al carrito</div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                  Seguir comprando
-                </button>
-                <button type="button" class="btn btn-primary">Pagar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card tienda">
-        <img src="../img/neotex.jpg" class="card-img-top imgEquipo" alt="Imagen traje de buceo" />
-        <div class="card-body">
-          <h2 class="card-title">BTR500 w/Neoprene Socks- XS</h2>
-          <p>$940500</p>
-          <p class="card-text">
-            Trajes de Buceo, Trajes Secos.
-          </p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar
-          </button>
-        </div>
-        <div class="modal fade seccionD" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">
-                  Tienda de Buceo
-                </h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">Se agregó producto al carrito</div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                  Seguir comprando
-                </button>
-                <button type="button" class="btn btn-primary">Pagar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
     </div>
   </section>
 
-  <section class="container-fluid">
+  <section class="container">
     <div class="row">
       <div class="card tienda">
         <img src="../img/canvas.jpg" class="card-img-top imgEquipo" alt="Imagen botas de buceo" />
         <div class="card-body">
           <h2 class="card-title">Canvas Over-boot size 5</h2>
-          $39200
+          <p class="precio">$39200</p>
           <p class="card-text">
             Botas, Ropa de Abrigo.
           </p>
@@ -191,7 +158,7 @@
         <img src="../img/aletasviper.jpg" class="card-img-top imgEquipo" alt="Imagen aletas de buceo" />
         <div class="card-body">
           <h2 class="card-title">Aletas Viper Oceanic</h2>
-          <p>$40250</p>
+          <p class="precio">$40250</p>
           <p class="card-text">
             La mejor calidad de Hollis y Oceanic en una combinación perfecta.
           </p>
@@ -217,12 +184,16 @@
           </div>
         </div>
       </div>
-  
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
       <div class="card tienda">
         <img src="../img/aletasf2.jpg" class="card-img-top imgEquipo" alt="Imagen aletas de buceo" />
         <div class="card-body">
           <h2 class="card-title">Aletas F2</h2>
-          <p>$50750</p>
+          <p class="precio">$50750</p>
           <p class="card-text">
             Visor M4, Snorkel Oceanic / Fundive, Aletas F2.
           </p>
@@ -250,16 +221,11 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="container-fluid">
-    <div class="row">
       <div class="card tienda">
         <img src="../img/regulador100lx.jpg" class="card-img-top imgEquipo" alt="Imagen regulador" />
         <div class="card-body">
           <h2 class="card-title">100LX + DC3 YOKE</h2>
-          $206150
+          <p class="precio">$206150</p>
           <p class="card-text">
             Combos, Reguladores, YOKE
           </p>
@@ -286,11 +252,16 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
       <div class="card tienda">
         <img src="../img/regulador150lx.jpg" class="card-img-top imgEquipo" alt="Imagen regulador" />
         <div class="card-body">
           <h2 class="card-title">150LX + DC7 DIN (DECO Regulator)</h2>
-          <p>$212800</p>
+          <p class="precio">$212800</p>
           <p class="card-text">
             Combos, DIN, Oxygen | Deco, Reguladores
           </p>
@@ -318,12 +289,12 @@
           </div>
         </div>
       </div>
-  
+
       <div class="card tienda">
         <img src="../img/chalecobc.jpg" class="card-img-top imgEquipo" alt="Imagen chaleco" />
         <div class="card-body">
           <h2 class="card-title">BC-Thor</h2>
-          <p>$129500</p>
+          <p class="precio">$129500</p>
           <p class="card-text">
             Chaleco desarrollado con foco en robustez y durabilidad para tener la máxima resistencia y el mínimo de
             mantenimiento.
@@ -354,7 +325,7 @@
       </div>
     </div>
   </section>
-
+ 
   <footer>
     <div class="sparametro">
       <a href="https://www.instagram.com/" target="_blank">
