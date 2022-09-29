@@ -1,6 +1,6 @@
 @import "variable";
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -33,17 +33,17 @@ body {
 
 }
 
-.nav-item { 
+.nav-item {
   margin-left: 4rem;
 }
 
 .logo {
   height: 5.7rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .sitio {
-  margin-left: 12rem;
+  margin-left: 6rem;
 }
 
 footer {
@@ -69,7 +69,6 @@ footer {
 }
 
 /* Index */
-
 
 .recuadro {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -98,17 +97,18 @@ footer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.cardIndex { 
+.cardIndex {
   background-color: transparent;
   border: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 3rem;
 }
 
-.video {  
+.video {
   margin-top: 4rem;
-  margin-left: 25%  
+  margin-left: 25%
 }
+
 .texIndex {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -118,6 +118,7 @@ footer {
 #texCurso {
   text-align: left;
 }
+
 .texto {
   background-color: transparent;
   border: none;
@@ -133,66 +134,50 @@ footer {
 
 .cursos {
   width: 16rem;
-  height:27rem ;
-  margin: 3rem;  
+  height: 27rem;
+  margin: 3rem;
   display: flex;
-  flex-direction: column;   
-  text-align: center;  
+  flex-direction: column;
+  text-align: center;
   background-color: transparent;
   border: none;
 }
 
-
-.fCurs { 
+.fCurs {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  height: 9rem;  
+  height: 9rem;
   width: 11;
-  margin-top: 3rem;  
+  margin-top: 3rem;
 }
 
-
-.imgCu{
+.imgCu {
   overflow: hidden;
   border-radius: 6px;
-  box-shadow: 0px 15px 25px;    
-  
+  box-shadow: 0px 15px 25px;
 }
 
-.imgCu:hover{
-  
+.imgCu:hover {
   transform: scale(1.15);
-  
 }
 
-.btn-primary{
-  background-color: #4F979C ;
+.btn-primary {
+  background-color: #4F979C;
 }
+
 .precio {
   font-size: 2rem;
   font-weight: bold;
 }
 
-
 /*equipos*/
 
 
-#titEquipo{
+#titEquipo {
   text-align: left;
 }
-.tienda {
-  background-color: transparent;
-  display: flex;   
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: none;   
-  height: auto;
-  width: 300px;  
-  margin: 4rem;     
-  box-shadow: 1px 1px 10px 2px #617675 ;   
-}
+
 
 .foto {
   display: flex;
@@ -201,7 +186,18 @@ footer {
   margin: 1rem;
 }
 
-
+.tienda {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  height: auto;
+  width: 300px;
+  margin: 4rem;
+  box-shadow: 1px 1px 10px 2px #617675;
+}
 
 /*viajes*/
 
@@ -216,38 +212,37 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-top: 3rem;  
+  margin-top: 3rem;
 }
 
 .carIma {
   text-align: right;
   display: flex;
-  flex-direction: column;  
-  margin-top: 3rem;  
+  flex-direction: column;
+  margin-top: 3rem;
 }
 
 .tanFuentes {
-  color:#3D5251 ;
+  color: #3D5251;
   font-size: 2.5rem;
   margin-bottom: 3rem;
   margin-left: 2rem;
   text-align: center;
 }
 
-.container{
+.container {
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .ventaCard {
   margin-bottom: 3rem;
-  border-radius: 1rem;  
+  border-radius: 1rem;
   padding-bottom: 32px;
   height: 20rem;
-  width: 20rem;      
-  box-shadow: 1px 1px 10px 2px #617675 ; 
+  width: 20rem;
+  box-shadow: 1px 1px 10px 2px #617675;
 }
-
 
 .stretched-link {
   text-decoration: none;
@@ -255,27 +250,24 @@ footer {
 
 /*contacto*/
 
-.formulario {
-  padding: 5rem;
+.formulrio {
+  margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.direccion {  
+.boton {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.direccion {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 
-.ubicacion {
-  background-image: url(../img/ubicacion.jpg);
-  height: 88vh;  
-  padding-left: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-size: cover; 
-}
 
-
-.what{
+.what {
   width: 20px;
 }
 

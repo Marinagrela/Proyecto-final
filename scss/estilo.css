@@ -29,11 +29,11 @@ body main h1 {
 
 .logo {
   height: 5.7rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .sitio {
-  margin-left: 12rem;
+  margin-left: 6rem;
 }
 
 footer {
@@ -164,6 +164,13 @@ footer {
   text-align: left;
 }
 
+.foto {
+  display: flex;
+  height: 20rem;
+  width: 32rem;
+  margin: 1rem;
+}
+
 .tienda {
   background-color: transparent;
   display: flex;
@@ -175,13 +182,6 @@ footer {
   width: 300px;
   margin: 4rem;
   box-shadow: 1px 1px 10px 2px #617675;
-}
-
-.foto {
-  display: flex;
-  height: 20rem;
-  width: 32rem;
-  margin: 1rem;
 }
 
 /*viajes*/
@@ -233,23 +233,20 @@ footer {
 }
 
 /*contacto*/
-.formulario {
-  padding: 5rem;
+.formulrio {
+  margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.boton {
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .direccion {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-}
-
-.ubicacion {
-  background-image: url(../img/ubicacion.jpg);
-  height: 88vh;
-  padding-left: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-size: cover;
 }
 
 .what {

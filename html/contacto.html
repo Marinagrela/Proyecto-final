@@ -44,48 +44,66 @@
     </nav>
   </header>
 
-  <main class="ubicacion">
-    <h1>ESCRIBINOS...</h1>
+  <main>
+    <h1>
+      DONDE ESTAMOS...
+    </h1>
   </main>
 
-  <section class="container-fluid">
-    <form class="row g-3 formulario">
-      <div class="col-md-4">
-        <label for="validationDefault01" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="validationDefault01" value="Juan" required>
-      </div>
-      <div class="col-md-4">
-        <label for="validationDefault02" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="validationDefault02" value="Perez" required>
-      </div>
-      <div class="col-md-4">
-        <label for="validationDefaultUsername" class="form-label">Correo Electrónico</label>
-        <div class="input-group">
-          <span class="input-group-text" id="inputGroupPrepend2">@</span>
-          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
-            required>
+  <section class="container">
+    <form class="row g-3 needs-validation formulrio" novalidate>
+      <div class="col-md-4 position-relative ">
+        <label for="validationTooltip01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationTooltip01" value="Juan" required>
+        <div class="valid-tooltip">
+          Looks good!
         </div>
       </div>
-      <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">Ciudad</label>
-        <input type="text" class="form-control" id="validationDefault03" required>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip02" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="validationTooltip02" value="Perez" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
       </div>
-
-      <div class="col-md-3">
-        <label for="validationDefault05" class="form-label">País</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltipUsername" class="form-label">Correo Electrónico</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          <input type="text" class="form-control" id="validationTooltipUsername"
+            aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="invalid-tooltip">
+            Please choose a unique and valid username.
+          </div>
+        </div>
       </div>
-      <div class="col-md-3">
-        <label for="validationDefault04" class="form-label">Consulta</label>
-        <select class="form-select" id="validationDefault04" required>
-          <option selected disabled value="">Elige una opción</option>
-          <option>Viajes</option>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip03" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="invalid-tooltip">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip05" class="form-label">País</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip04" class="form-label">Consulta</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Elije una opción</option>
           <option>Cursos</option>
+          <option>Viajes</option>
           <option>Otros</option>
         </select>
+        <div class="invalid-tooltip">
+          Please select a valid state.
+        </div>
       </div>
-
-      <div class="col-12">
+      <div class="col-12 boton">
         <button class="btn btn-primary" type="submit">Enviar</button>
       </div>
     </form>
@@ -97,7 +115,6 @@
     <p class="fs-3">Morros das pedras</p>
     <p class="fs-4">Brasil-</p>
     <p class="fs-5"> <img src="../img/what.png" alt="Imagen de Whats app" class="what"> +543416022203</p>
-
   </section>
 
 
